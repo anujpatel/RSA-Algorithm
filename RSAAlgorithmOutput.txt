@@ -1,0 +1,15 @@
+--------SAVING PUBLIC KEY AND PRIVATE KEY TO FILES-------
+
+Generating Public.key...
+Public.key generated successfully
+Generating Private.key...
+Private.key generated successfully
+
+----------------ENCRYPTION STARTED------------
+Data Before Encryption :Anuj Patel - Classified Information !
+Encryted Data: [B@57fa26b7
+----------------ENCRYPTION COMPLETED------------
+
+----------------DECRYPTION STARTED------------
+Decrypted Data: Anuj Patel - Classified Information !
+----------------DECRYPTION COMPLETED------------
