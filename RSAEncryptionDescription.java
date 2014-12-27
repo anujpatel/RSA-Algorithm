@@ -26,7 +26,7 @@ import javax.crypto.Cipher;
  * RSA - Encrypt Data using Public Key
  * RSA - Descypt Data using Private Key
  */
-public class RSAEncryptionDescription {
+public class RSAEncryptionDecryption {
 
 	private static final String PUBLIC_KEY_FILE = "Public.key";
 	private static final String PRIVATE_KEY_FILE = "Private.key";
@@ -55,7 +55,7 @@ public class RSAEncryptionDescription {
 			
 			//Share public key with other so they can encrypt data and decrypt thoses using private key(Don't share with Other)
 			System.out.println("\n--------SAVING PUBLIC KEY AND PRIVATE KEY TO FILES-------\n");
-			RSAEncryptionDescription rsaObj = new RSAEncryptionDescription();
+			RSAEncryptionDecryption rsaObj = new RSAEncryptionDecryption();
 			rsaObj.saveKeys(PUBLIC_KEY_FILE, rsaPubKeySpec.getModulus(), rsaPubKeySpec.getPublicExponent());
 			rsaObj.saveKeys(PRIVATE_KEY_FILE, rsaPrivKeySpec.getModulus(), rsaPrivKeySpec.getPrivateExponent());
 			
